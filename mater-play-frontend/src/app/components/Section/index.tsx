@@ -49,7 +49,7 @@ function Section({
                     }}
                 >
                     {movies.map(item => (
-                       <MovieCard key={item.id} poster={'assets/'+item.poster}/> 
+                       <MovieCard key={item.id} movie={item}/> 
                     )) }
 
                 </Stack>
